@@ -46,5 +46,5 @@ These files will be saved in the project directory.
 
 ## Notes
 
-* Ensure all dependencies listed in `requirements.txt` (if applicable) are installed.
-* This project is focused on London areas; crime data from other police forces is not supported.
+* This project is focused on London areas; crime data from other police forces is supported as well.
+* RenameColumns.py is a one-time script; you do not need to use it in any way
