@@ -12,7 +12,7 @@ Please ensure you download crime data **only for the following forces**:
 * **Metropolitan Police Service**
 * **City of London Police** (optional)
 
-> **Important:** After downloading the crime data, place the entire folder inside the cloned repository and **rename the folder to `CrimeData`**.
+> **Important:** After downloading the crime data, if you place the entire folder inside the cloned repository, then **rename the folder to `CrimeData`**.
 > The `.gitignore` file is configured to exclude this folder (because it can be quite large), so it will not be committed to the repository.
 
 ### Setting File Paths
@@ -31,7 +31,7 @@ You will need to edit these paths directly in your `main` script to reflect the 
 
 Once the data is downloaded and the paths have been correctly set, simply run the script using Python:
 
-```
+```bash
 python main.py
 ```
 
@@ -48,4 +48,3 @@ These files will be saved in the project directory.
 
 * Ensure all dependencies listed in `requirements.txt` (if applicable) are installed.
 * This project is focused on London areas; crime data from other police forces is not supported.
-
